@@ -6,6 +6,8 @@ git add lab2/ - загружаем папку (lab2/) в git
 git commit -m "Add lab2'" - добавляем коммит
 git remote add OSlab https://github.com/AnotherJelly/OSLabsBespalov - создаём связь с репозиторием
 git push OSlab main - загружаем в нужную ветку
-5. Папки создавал через mkdir. Вывод фильмов через ls 'Ryan Gosling'/ > '5 пункт'.txt. Вывод информации с использованием разделителя (delimiter.txt): cat delimiter.txt 'Ryan Gosling'/'Blade Runner 2049'/info.txt delimiter.txt 'Ryan Gosling'/'Drive'/info.txt delimiter.txt 'Ryan Gosling'/'La La Land'/info.txt delimiter.txt 'Ryan Gosling'/'The Place Beyond the Pines'/info.txt >> '5 пункт'.txt
+5. Папки создавал через mkdir.
+Вывод фильмов через ls 'Ryan Gosling'/ > '5 пункт'.txt.
+Вывод информации с использованием разделителя (delimiter.txt): cat delimiter.txt 'Ryan Gosling'/'Blade Runner 2049'/info.txt delimiter.txt 'Ryan Gosling'/'Drive'/info.txt delimiter.txt 'Ryan Gosling'/'La La Land'/info.txt delimiter.txt 'Ryan Gosling'/'The Place Beyond the Pines'/info.txt >> '5 пункт'.txt
 Также есть ручной ввод разделителя, но он мне показался неудобным: cat - 'Ryan Gosling'/'Blade Runner 2049'/info.txt - 'Ryan Gosling'/'Drive'/info.txt - 'Ryan Gosling'/'La La Land'/info.txt - 'Ryan Gosling'/'The Place Beyond the Pines'/info.txt >> '5 пункт'.txt
 
